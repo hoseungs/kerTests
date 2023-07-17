@@ -12,5 +12,5 @@ This repository provides the _R_ functions for the paper:
 
 * We introduce the usage of the `kertests()` function
 
-* In `R` folder, `RunMe.R' demonstrates how to replicate the simulation results in our paper.
+* In `R` folder, `RunMe.R` demonstrates how to replicate the simulation results in our paper.
 
