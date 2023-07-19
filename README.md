@@ -2,7 +2,7 @@
 
 This repository provides the _R_ functions for the paper: 
 
-**Song, H.**, Chen, H.    \
+Hoseung Song and Hao Chen    \
   [Generalized kernel two-sample tests.](https://arxiv.org/pdf/2011.06127.pdf) \
   _under review_ 
   
