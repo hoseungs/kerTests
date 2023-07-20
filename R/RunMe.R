@@ -93,7 +93,7 @@ res$p.value # p-value of CT
 
 # Example
 res = simul_power(type=1, m=50, n=50, d=500, dat=1, a=0.05, sigma2=1.04, permut=1000, iter=1000, alpha=0.05)
-res # power of the new tests
+res # power of the new tests (%)
 
 ###############################################################################
 ###############################################################################
@@ -167,4 +167,4 @@ res # p-value of TM
 
 # Example
 res = simul_power1(type=1, m=50, n=50, d=50, a=0.21, b=1, permut=1000, iter=1000, alpha=0.05)
-res # power of the new tests
+res # power of the new tests (%)

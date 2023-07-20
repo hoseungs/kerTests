@@ -27,11 +27,11 @@ simul_power1 = function(type, m, n, d, a, b, permut, iter, alpha) {
       }
     }
     res_power = list()
-    res_power$fGPK_appr = res_fGPK_appr
-    res_power$fGPK_perm = res_fGPK_perm
-    res_power$fGPKM_appr = res_fGPKM_appr
-    res_power$fGPKM_perm = res_fGPKM_perm
-    res_power$GPK_perm = res_GPK_perm
+    res_power$fGPK_appr = res_fGPK_appr*100/iter
+    res_power$fGPK_perm = res_fGPK_perm*100/iter
+    res_power$fGPKM_appr = res_fGPKM_appr*100/iter
+    res_power$fGPKM_perm = res_fGPKM_perm*100/iter
+    res_power$GPK_perm = res_GPK_perm*100/iter
   }
   # MMD Bootstrap
   if (type==2) {
@@ -46,6 +46,7 @@ simul_power1 = function(type, m, n, d, a, b, permut, iter, alpha) {
         res_power = res_power + 1
       }
     }
+    res_power = res_power*100/iter
   }
   # AG
   if (type==3) {
@@ -86,6 +87,7 @@ simul_power1 = function(type, m, n, d, a, b, permut, iter, alpha) {
         res_power = res_power + 1
       }
     }
+    res_power = res_power*100/iter
   }
   # ND1
   if (type==4) {
@@ -101,6 +103,7 @@ simul_power1 = function(type, m, n, d, a, b, permut, iter, alpha) {
         res_power = res_power + 1
       }
     }
+    res_power = res_power*100/iter
   }
   # ND2
   if (type==5) {
@@ -116,6 +119,7 @@ simul_power1 = function(type, m, n, d, a, b, permut, iter, alpha) {
         res_power = res_power + 1
       }
     }
+    res_power = res_power*100/iter
   }
   # TM
   if (type==6) {
@@ -130,6 +134,7 @@ simul_power1 = function(type, m, n, d, a, b, permut, iter, alpha) {
         res_power = res_power + 1
       }
     }
+    res_power = res_power*100/iter
   }
   
   return(res_power)
