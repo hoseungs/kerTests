@@ -5,7 +5,6 @@ install.packages('Ball')
 install.packages('gTests')
 install.packages('Ecume')
 install.packages('expm')
-install.packages('stats')
 install.packages('MASS')
 install.packages('abind')
 
