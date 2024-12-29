@@ -2,7 +2,7 @@
 
 This repository provides the _R_ functions for the paper: 
 
-Hoseung Song and Hao Chen    \
+Hoseung Song and Hao Chen (2024).   \
   [Generalized kernel two-sample tests.](https://arxiv.org/pdf/2011.06127.pdf) \
   _Biometrika, 111(3):755-770._ 
   
